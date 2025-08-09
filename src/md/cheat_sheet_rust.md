@@ -112,15 +112,3 @@ let (a, b, c) = tuple2;
 ---
 ```rust
 ```
-
-```rust
-```
-
-```rust
-```
-
-```rust
-```
-
-```rust
-```
