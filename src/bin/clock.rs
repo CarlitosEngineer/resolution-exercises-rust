@@ -7,8 +7,7 @@ impl Clock {
     pub fn new(hours: i32, minutes: i32) -> Self {
         let mut total = hours * 60 + minutes; // TOTAL DEl TIEMPO (EN MINUTOS)
         // Total =
-        total = ((total % Self::DAY_MINUTES) + Self::DAY_MINUTES) % Self::DAY_MINUTES;
-        //
+        total = ((total % Self::DAY_MINUTES) + Self::DAY_MINUTES) % Self::DAY_MINUTES; // 1440
         Clock(total)
     }
 
